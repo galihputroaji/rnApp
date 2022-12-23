@@ -1,9 +1,9 @@
-import TopBar from "../components/TopBar";
+import Layout from "../components/Layout";
 
 export default function Home() {
   return (
-    <>
-      <TopBar />
-    </>
+    <Layout>
+      <p>Homepage</p>
+    </Layout>
   );
 }
